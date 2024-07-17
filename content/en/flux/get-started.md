@@ -68,6 +68,7 @@ Run the bootstrap command:
 
 ```sh
 flux bootstrap github \
+  --token-auth \
   --owner=$GITHUB_USER \
   --repository=fleet-infra \
   --branch=main \
